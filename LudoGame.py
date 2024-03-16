@@ -28,17 +28,21 @@ def play():
             pc1[choice-1] = pc1[choice-1] + dice
             if (pc1[choice-1] == pc2[0] and (pc2[0] != 9 or pc2[0] != 22 or pc2[0] != 35 or pc2[0] != 48)):
                 pc2[0] = 0
+                print(p2,"your coin 1 Back to zero")
             elif (pc1[choice-1] == pc2[1] and (pc2[1] != 9 or pc2[1] != 22 or pc2[1] != 35 or pc2[1] != 48)):
                 pc2[1] = 0
+                print(p2,"your coin 2 Back to zero")
             elif (pc1[choice-1] == pc2[2] and (pc2[2] != 9 or pc2[2] != 22 or pc2[2] != 35 or pc2[2] != 48)):
                 pc2[2] = 0
+                print(p2,"your coin 3 Back to zero")
             elif (pc1[choice-1] == pc2[3] and (pc2[3] != 9 or pc2[3] != 22 or pc2[3] != 35 or pc2[3] != 48)):
                 pc2[3] = 0
+                print(p2,"your coin 4 Back to zero")
             for i in range(0,4):
                 print(pc1[i])
             for i in range(0,4):
                 if pc1[i]>=57 :
-                    printf(i+1, "coin reached destination play with remaing coins")
+                    printf(i+1,"coin reached destination play with remaing coins")
             check = 0
             check = win(pc1)
             if check == 1:
@@ -58,12 +62,16 @@ def play():
             pc2[choice-1] = pc2[choice-1] + dice
             if (pc2[choice-1] == pc1[0] and (pc1[0] != 9 or pc1[0] != 22 or pc1[0] != 35 or pc1[0] != 48)):
                 pc1[0] = 0
+                print(p1,"your coin 1 Back to zero")
             elif (pc2[choice-1] == pc1[1] and (pc1[1] != 9 or pc1[1] != 22 or pc1[1] != 35 or pc1[1] != 48)):
                 pc1[1] = 0
+                print(p1,"your coin 2 Back to zero")
             elif (pc2[choice-1] == pc1[2] and (pc1[2] != 9 or pc1[2] != 22 or pc1[2] != 35 or pc1[2] != 48)):
                 pc1[2] = 0
+                print(p1,"your coin 3 Back to zero")
             elif (pc2[choice-1] == pc1[3] and (pc1[3] != 9 or pc1[3] != 22 or pc1[3] != 35 or pc1[3] != 48)):
                 pc1[3] = 0
+                print(p1,"your coin 4 Back to zero")
             for i in range(0,4):
                 print(pc2[i])
             for i in range(0,4):
@@ -88,6 +96,18 @@ def win(points_List):
 play()
                 
             
+            
+            
+            
+                
+                
+                
+            
+                    
+    
+    
+    
+
             
             
             
