@@ -1,5 +1,3 @@
-To create a README file for your Ludo online game platform project, you can follow these guidelines:
-
 # Ludo Online Game Platform
 
 ## Overview
